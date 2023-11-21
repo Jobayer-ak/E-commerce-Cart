@@ -3,11 +3,11 @@ import ProductItem from './ProductItem';
 
 function Products() {
   return (
-    <div className='mt-12'>
-      <div className='flex justify-between items-center'>
+    <div className="mt-12 flex justify-between gap-10">
+      <div className="grid grid-cols-3 gap-4">
         <ProductItem />
-        <AddProduct />
       </div>
+      <AddProduct />
     </div>
   );
 }
