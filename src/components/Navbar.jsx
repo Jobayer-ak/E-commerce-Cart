@@ -1,8 +1,10 @@
 import logo from "../assets/images/logo.jpg";
+// import Cart from "./Cart";
 
 
 function Navbar() {
   return (
+    <>
     <nav className="bg-[#171C2A] py-4">
       <div className="navBar">
         <a href="index.html">
@@ -20,7 +22,10 @@ function Navbar() {
           </a>
         </div>
       </div>
-    </nav>
+      </nav>
+      
+      {/* <Cart/> */}
+      </>
   );
 }
 
